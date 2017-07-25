@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.14.0
+
+  * nerves_system_br v0.13.2
+    * OTP 20
+    * erlinit 1.1.3
+    * fwup 0.15.3
+
 ## v0.13.0
 
   * nerves_system_br v0.12.1
