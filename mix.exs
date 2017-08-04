@@ -8,7 +8,7 @@ defmodule NervesSystemRpi3.Mixfile do
   def project do
     [app: :nerves_system_rpi3_sdr,
      version: @version,
-     elixir: "~> 1.3",
+     elixir: "~> 1.5",
      compilers: Mix.compilers ++ [:nerves_package],
      description: description(),
      package: package(),
