@@ -28,13 +28,13 @@ defmodule NervesSystemRpi3Sdr.Mixfile do
 
   defp description do
    """
-   Nerves System - Raspberry Pi 3 B
+   Nerves custom system for SDR on Raspberry Pi 3
    """
   end
 
   defp package do
    [maintainers: ["Jeff Smith"],
-    files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions", "fwup.conf", "cmdline.txt", "linux-4.4.defconfig", "config.txt", "post-createfs.sh"],
+    files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions", "fwup.conf", "cmdline.txt", "linux-4.4.defconfig", "config.txt", "post-createfs.sh", "package", "external.mk", "Config.in"],
     licenses: ["Apache 2.0"],
     links: %{"Github" => "https://github.com/electricshaman/nerves_system_rpi3_sdr"}]
   end
